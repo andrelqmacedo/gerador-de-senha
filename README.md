@@ -7,6 +7,8 @@ https://andrelqmacedo.github.io/gerador-de-senha/
 Link do Projeto no Netlify:
 https://deploy-preview-1--fanciful-gecko-89f985.netlify.app/
 
+Projeto realizado pelos alunos: André Queiroga, Bruno Botelho, Francisco Lourenço, Gabriela Ellen, Pedro Thomé.
+
 ![Imagem do index](images/gerandosenha.png)
 ![Imagem do index](images/copiandosenha.png)
 ![Imagem do index](images/verforca.png)
