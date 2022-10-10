@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Gerador de Senha 2.1</title>
+</head>
+<body>
+    <div class="container">
+      <h2 class="titulo">Gerador de Senhas Randômicas </h2>
+
+      <div>
+        <input type="number" placeholder="Tamanho da Senha" id="passwordLength">
+        <label for="number"></label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="checkMaiuscula">
+        <label for="checkMaiuscula">Letras maiúsculas</label> 
+      </div>
+
+      <div>
+        <input type="checkbox" id="checkMinuscula">
+        <label for="checkMinuscula">Letras minúsculas</label>
+
+      </div>
+    
+      <div>
+        <input type="checkbox" id="checkNumeros">
+        <label for="checkNumeros">Números</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="checkSimbolos">
+        <label for="checkSimbolos">Símbolos</label> 
+      </div>
+
+      <div>
+        <input type="button" value="Gerar senha" onclick="getPassword()">
+      </div>
+
+      <div>
+        <label for="password">Sua senha foi gerada:</label>
+        <input type="text" placeholder="Senha" id="password" readonly="">
+
+      </div>
+
+      <div>
+        <input type="button" value="Copiar para a área de
+      transferência" id="copiar" onclick="copiar()">
+        <input type="button" value="Ver força da senha" id="forca" onclick="forcaDaSenha()">
+      </div>
+
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
