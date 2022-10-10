@@ -1,6 +1,9 @@
 # Gerador de Senha
 Projeto de um gerador de senhas randômicas, desenvolvido na disciplina de Programação Web, sob orientação do Prof. Edkallen. Utiliza HTML, CSS e JavaScript.
 
+Link do Projeto no Github Pages:
+https://andrelqmacedo.github.io/gerador-de-senha/
+
 Link do Projeto no Netlify:
 https://deploy-preview-1--fanciful-gecko-89f985.netlify.app/
 
